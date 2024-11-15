@@ -10,10 +10,10 @@ int main()
     string text;
 
     ofstream internFile("internFile.txt");
-    internFile << "Hitesh K V\nIntern035";
+    internFile << "Hitesh KV\nIntern035";
     internFile.close();
 
-   ifstream internFileRead("internFile.txt");
+    ifstream internFileRead("internFile.txt");
     while(getline(internFileRead,text)) {
     cout << text << "\n";
     } 
